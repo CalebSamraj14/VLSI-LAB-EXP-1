@@ -175,6 +175,8 @@ module fulladder(S, Co, X, Y, Ci);
   or G5(Co, w2, w3);
 
 endmodule
+**8bit ripple carry adder**
+
 
 **OUTPUT:**
 
