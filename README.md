@@ -40,8 +40,7 @@ Full Subtractor:
 
 
 VERILOG CODE:
-Full Adder:
-
+**Full Adder:**
 module fulladder (sum, cout, a,b,c);
 
 input a,b,c;
@@ -65,7 +64,7 @@ or o1(w5,w2,w3); or o2(cout,w5,w4);
 endmodule
 
 
-Full Subractor:
+**Full Subractor:**
 
 module full_subtractor(a, b, c,D, Bout);
 
@@ -80,7 +79,7 @@ assign Bout = (~a & b) | (~(a^ b) & c);
 endmodule
 
 
-Half Adder:
+**Half Adder:**
 
 module half_adder(a,b,sum,carry);
 
@@ -95,7 +94,7 @@ and(carry,a,b);
 endmodule
 
 
-Half Subractor:
+**Half Subractor:**
 
 module half_subtractor(D,Bo,A,B);
 
@@ -110,7 +109,7 @@ assign Bo=(~A)&B;
 endmodule
 
 
-Logic Gates:
+**Logic Gates:**
 
 module logicgates(a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
 
@@ -135,8 +134,7 @@ not(notgate,a);
 endmodule
 
 
-Ripple Carry Adder 4Bit:
-
+**Ripple Carry Adder 4Bit:**
 
 module rippe_adder(S, Cout, X, Y,Cin);
 
@@ -178,7 +176,7 @@ module fulladder(S, Co, X, Y, Ci);
 
 endmodule
 
-OUTPUT:
+**OUTPUT:**
 
 Full Adder
 ![Full Adder](https://github.com/RCKcharan10/VLSI-LAB-EXP-1/assets/117891438/78ebcf71-8ed3-4710-ae0e-47d9b794d7a5)
