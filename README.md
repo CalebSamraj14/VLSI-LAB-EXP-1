@@ -196,7 +196,8 @@ endmodule
 
 ![image](https://github.com/CalebSamraj14/VLSI-LAB-EXP-1/assets/163808923/c49e900c-4cda-4b35-a768-b613cf48fa3e)
 
-
+**result**
+ simulation of Logic Gates ,Adders and Subtractors using Vivado 2023.2 completed successfully
 
 
 
